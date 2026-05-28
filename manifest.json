@@ -1,0 +1,45 @@
+{
+  "name": "BudżetFlow",
+  "short_name": "BudżetFlow",
+  "description": "Analizator wydatków i lista zadań z trybem offline",
+  "lang": "pl",
+
+  "start_url": "/budzetflow/index.html",
+  "scope":     "/budzetflow/",
+  "display":   "standalone",
+
+  "background_color": "#080c14",
+  "theme_color":      "#080c14",
+
+  "orientation": "portrait-primary",
+
+  "categories": ["finance", "productivity"],
+
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+
+  "shortcuts": [
+    {
+      "name": "Dodaj wydatek",
+      "url": "/budzetflow/index.html",
+      "description": "Przejdź do analizatora wydatków"
+    },
+    {
+      "name": "Lista zadań",
+      "url": "/budzetflow/index.html",
+      "description": "Przejdź do listy zadań"
+    }
+  ]
+}
